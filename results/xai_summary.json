@@ -1,0 +1,26 @@
+{
+    "final_model": "Random Forest",
+    "number_of_test_patients": 80,
+    "number_of_features": 7,
+    "top_global_shap_feature": "hemo",
+    "global_shap_features": [
+        "hemo",
+        "sg",
+        "pcv",
+        "htn",
+        "al",
+        "rbcc",
+        "dm"
+    ],
+    "xai_methods": [
+        "SHAP",
+        "LIME"
+    ],
+    "representative_patient_index": 365,
+    "test_accuracy": 0.975,
+    "test_f1_score": 0.9655172413793104,
+    "test_roc_auc": 0.9986666666666667,
+    "cv_mean_accuracy": 0.9849683544303798,
+    "cv_mean_f1_score": 0.9797532329343372,
+    "cv_mean_roc_auc": 0.9997333333333334
+}

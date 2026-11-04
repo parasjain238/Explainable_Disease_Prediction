@@ -1,0 +1,46 @@
+{
+    "Project Title": "Explainable Machine Learning Framework for Early Disease Prediction using Explainable AI",
+    "Disease": "Chronic Kidney Disease (CKD)",
+    "Dataset": "UCI Chronic Kidney Disease Dataset",
+    "Original Dataset Records": 400,
+    "Modeling Records After Invalid Target Removal": 399,
+    "Input Features After Feature Selection": 7,
+    "Selected Features": [
+        "al",
+        "dm",
+        "hemo",
+        "htn",
+        "pcv",
+        "rbcc",
+        "sg"
+    ],
+    "Models Evaluated": [
+        "Logistic Regression",
+        "Random Forest",
+        "XGBoost"
+    ],
+    "Selected Model": "Random Forest",
+    "Number of Random Forest Trees": 200,
+    "Test Accuracy": 0.975,
+    "Test Precision": 1.0,
+    "Test Recall": 0.933333,
+    "Test F1 Score": 0.965517,
+    "Test ROC AUC": 0.998667,
+    "CV Mean Accuracy": 0.984968,
+    "CV Std Accuracy": 0.009346,
+    "CV Mean F1 Score": 0.979753,
+    "CV Std F1 Score": 0.01245,
+    "CV Mean ROC AUC": 0.999733,
+    "CV Std ROC AUC": 0.000533,
+    "XAI Methods": [
+        "SHAP",
+        "LIME"
+    ],
+    "Global SHAP Most Important Feature": "hemo",
+    "Global SHAP Second Most Important Feature": "sg",
+    "Global SHAP Third Most Important Feature": "pcv",
+    "Application": "Streamlit",
+    "Application Status": "Tested successfully",
+    "SHAP Application Status": "Working",
+    "LIME Application Status": "Working"
+}

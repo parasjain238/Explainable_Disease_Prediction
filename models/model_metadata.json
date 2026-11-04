@@ -1,0 +1,17 @@
+{
+    "selected_features": [
+        "al",
+        "dm",
+        "hemo",
+        "htn",
+        "pcv",
+        "rbcc",
+        "sg"
+    ],
+    "target_column": "class",
+    "class_mapping": {
+        "0": "CKD",
+        "1": "Not CKD"
+    },
+    "final_model": "Random Forest"
+}

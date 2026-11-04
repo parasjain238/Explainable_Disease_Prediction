@@ -1,0 +1,7 @@
+{
+    "patient_index": 365,
+    "actual_class": "Not CKD",
+    "predicted_class": "Not CKD",
+    "probability_not_ckd": 0.6344197991994825,
+    "probability_ckd": 0.36558020080051745
+}
